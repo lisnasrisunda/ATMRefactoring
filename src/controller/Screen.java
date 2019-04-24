@@ -9,7 +9,7 @@ import java.util.*;
  *
  * @author lenovo
  */
-public class Screen implements ControllerImpl{
+public abstract class Screen implements ControllerImpl{
     @Override
     public void displayAmount(String currency,double amount){
        System.out.printf(currency+"%,.2f", amount);

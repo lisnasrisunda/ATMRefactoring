@@ -6,16 +6,19 @@
 package atmapp;
 import controller.ControllerImpl;
 import controller.Screen;
+import controller.Keypad;
 /**
  *
  * @author lenovo
  */
 public class ATMProcessingFacade {
-    //Keypad keypad = new Keypad();
+    Keypad keypad = new Keypad();
     private ControllerImpl screen;
+   // private ControllerImpl keypad;
     
     public ATMProcessingFacade(){
-        screen = new Screen();
+       screen = new Screen() {};
+       keypad = new Keypad() {};
     }
     
     public void menu(){

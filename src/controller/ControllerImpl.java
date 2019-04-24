@@ -12,4 +12,5 @@ package controller;
 public interface ControllerImpl{
     public void displayAmount(String currency,double amount);
     public void displayMenu();
+    //public void Keypad();
 }
