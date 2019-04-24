@@ -12,9 +12,9 @@ import controller.Keypad;
  * @author lenovo
  */
 public class ATMProcessingFacade {
-    Keypad keypad = new Keypad();
+    //Keypad keypad = new Keypad();
     private ControllerImpl screen;
-   // private ControllerImpl keypad;
+    private Keypad keypad;
     
     public ATMProcessingFacade(){
        screen = new Screen() {};
